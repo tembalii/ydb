@@ -12,7 +12,7 @@ on:
   # Run a full scan when the Semgrep workflow file is changed:
   push:
     paths:
-      - '.github/workflows/semgrep_moduleA.yml'
+      - '.github/workflows/semgrep.yml'
   # Schedule a daily full scan CI job (this method uses cron syntax):
   schedule:
     - cron: '20 17 * * *' # Sets Semgrep to scan every day at 17:20 UTC.
